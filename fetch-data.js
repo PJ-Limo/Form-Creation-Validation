@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function(){
     const fetchUserData = async (firstName, lastName) => {
 
-        const response = await fetch('https://jsonplaceholder.typicode.com/users');
+        fetch('https://jsonplaceholder.typicode.com/users');
         const dataContainer = document.getElementById('api-data');
       
         try {
