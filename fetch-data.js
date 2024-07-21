@@ -1,7 +1,6 @@
+fetch('https://jsonplaceholder.typicode.com/users');
 document.addEventListener('DOMContentLoaded', function(){
     const fetchUserData = async (firstName, lastName) => {
-
-        fetch('https://jsonplaceholder.typicode.com/users');
         const dataContainer = document.getElementById('api-data');
       
         try {
